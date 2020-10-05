@@ -1,0 +1,83 @@
+*:focus{
+    outline: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.search{
+    border-radius: 20px;
+}
+
+.banner-search{
+    border-radius: 10px;
+}
+.brand-logo{
+    width: 110px;
+    height: 32px;
+}
+.small{
+    font-size: 14px !important;
+}
+.extra-small{
+    font-size: 12px !important;
+}
+.banner .inside{
+    background-color: white;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 75px;
+    width: 35%;
+    min-width: 250px;
+    height: 270px;
+    padding: 30px;
+}
+input[type=search] {
+    border: none;
+}
+.border-bottom{
+    border-width: 10px;
+}
+
+.line{
+    margin-top: -16px;
+}
+.col-sm-3{
+    width: 15% !important;
+}
+.course-image{
+    width: 100%;
+    max-width: 240px;
+    height: 116px;
+    object-fit: cover;
+}
+.survey{
+    height: 250px;
+    background-color: rgb(110, 26, 82);
+    background-image: url('https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg');
+    background-size: contain;
+}
+.category-image{
+    height: 300px;
+}
+.instructor-image{
+    height: 400px;
+    width: 400px;
+}
+.company-image{
+    height: 25px;
+}
+.business{
+    height: 350px;
+}
+.bg-business{
+    background-color: #003640;
+    height: 300px;
+    margin-top: 100px;
+}
